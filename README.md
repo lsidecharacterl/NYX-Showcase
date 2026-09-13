@@ -77,23 +77,70 @@ NYX can also operate as a small ambient desktop presence and expand into a large
 
 ## Screenshots
 
-> Screenshots of the NYX interface will be added here.
+### NYX Main Interface
 
-<!-- Example:
-![NYX Desktop](screenshots/nyx-desktop.png)
--->
+The main NYX desktop interface for interacting with the assistant, viewing activity, and accessing NYX's capabilities.
+
+![NYX Main Interface](screenshots/nyx_main.png)
+
+### NYX in Action
+
+An example of NYX working through a task and interacting with the user.
+
+![NYX Example](screenshots/nyx_example.png)
+
+### NYX VS Code Integration
+
+NYX includes a Visual Studio Code integration for development workflows and working directly with projects.
+
+![NYX VS Code Extension](screenshots/nyx_extension.png)
+
+### NYX World
+
+NYX World integrates **God's Eye View**, originally created by **Bilawal Sidhu** and developed with its open-source contributors.
+
+Full credit for the underlying God's Eye View project belongs to its original creator and contributors. NYX integrates the project into the broader NYX assistant environment.
+
+Original project:  
+https://github.com/bilawalsidhu/gods-eye-view
+
+![NYX World](screenshots/nyx_world.png)
 
 ---
 
 # 🌍 NYX World
 
-**NYX World** is an integrated globe and public-data workspace built directly into NYX.
+**NYX World is an integration of the open-source God's Eye View project created by Bilawal Sidhu and developed with its contributors.**
 
-It expands the assistant beyond traditional chat by giving NYX a visual environment for exploring geographic and real-world information.
+God's Eye View provides the foundation for the interactive globe and public-data visualization experience used by NYX World.
 
-The workspace is designed to support interactive geographic data, public datasets, environmental information, transportation information, and other world-oriented analysis.
+I integrated God's Eye View into NYX so that NYX can access a visual world workspace alongside her other capabilities. My work focuses on the NYX integration and how the workspace connects with the larger NYX assistant architecture.
 
-NYX World is part of a larger goal: allowing the assistant to **show information visually instead of only describing it through text.**
+The original concept, globe experience, and God's Eye View project belong to and should be credited to its original creator and contributors.
+
+### ❤️ Credit & Acknowledgements
+
+**God's Eye View — Created by Bilawal Sidhu**
+
+Maintained by **Bilawal Sidhu and Sameh Khamis at Halfpixel**, with contributions from the God's Eye View open-source community.
+
+Original project:
+
+https://github.com/bilawalsidhu/gods-eye-view
+
+A huge thank you to **Bilawal Sidhu, Sameh Khamis, and every contributor to God's Eye View** for making the project open source and allowing developers like me to build integrations and new experiences around their work.
+
+NYX World would not exist in its current form without their work.
+
+God's Eye View source code is released under the MIT License. Third-party datasets, imagery, and visual assets used by God's Eye View may have separate licenses and attribution requirements. Please refer to the original God's Eye View repository for the authoritative licensing and attribution information.
+
+## NYX World Preview
+
+> Screenshot coming soon.
+
+<!--
+![NYX World](screenshots/nyx-world.png)
+-->
 
 ## NYX World Preview
 
@@ -532,6 +579,21 @@ Public documentation
 The production NYX source repository is private.
 
 Personal configuration, credentials, memory databases, model files, runtime logs, private data, and production source code are not included in this repository.
+
+# 🙏 Acknowledgements
+
+## God's Eye View
+
+NYX World integrates **God's Eye View**, an open-source spatial intelligence and globe visualization project created by **Bilawal Sidhu** and maintained by **Bilawal Sidhu and Sameh Khamis at Halfpixel**, together with contributions from its open-source community.
+
+God's Eye View:
+https://github.com/bilawalsidhu/gods-eye-view
+
+Full credit for the original God's Eye View project, its design, and its underlying work belongs to its creator and contributors.
+
+NYX's role is the integration of that project into the larger NYX assistant environment.
+
+Thank you to Bilawal Sidhu, Sameh Khamis, and the entire God's Eye View contributor community for making their work available to others.
 
 👨‍💻 Creator
 
